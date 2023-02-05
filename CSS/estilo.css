@@ -1,0 +1,193 @@
+/**RESETAR FORMATAÇÃO**/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebochet MS", Helvetica, sans-serif;
+	background: #FFF url('../IMAGENS/bg.png');
+	margin: 15px;
+}
+
+/**GERAIS**/
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+h2 {
+	font-size: 1.1em;
+	color: #7D7640;
+	padding: 5PX 0;
+}
+
+p {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+/**CONTAINER**/
+#container {
+	background: #EDE9CC url('../IMAGENS/bg-container.png') top center repeat-y;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1180px;
+}
+
+/**CABEÇALHO**/
+#headerArea {
+	background: #DBCD87 url('../IMAGENS/bg.png');
+	height: 15.4em;
+	min-height: 250px;
+	position: relative;
+}
+/**CABEÇALHO - LOGO**/
+#logoArea {
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url('../IMAGENS/topo-imagem-principal.png') no-repeat;
+}
+
+.logo {
+	background: url('../IMAGENS/logo.png') no-repeat;
+	margin: 15px 0px 0px 15px;
+	width: 151px;
+	height: 66px;
+	text-indent: -9000px;
+}
+
+/**CABEÇALHO - MENU**/
+#menuArea {
+	width: 450px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url('../IMAGENS/topo-imagem-lateral.png') no-repeat;
+}
+
+#menuContent {
+	margin-left: 80px;
+	margin-right: 15px;
+	padding-top: 15px;
+}
+
+#menuLocations {
+	border-top: 1px solid #B5AB56;
+	border-bottom: 1px solid #B5AB56;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 0.7em;
+	color: #8B8448;
+}
+
+#menuLocations .locations {
+	float: left;
+	line-height: 2.1em;
+}
+
+a.reserve {
+	text-transform: uppercase;
+	background: #A29750;
+	color: #FFF5B0;
+	padding:  5px 10px;
+	float: right;
+}
+
+a.reserve:hover {
+	color: black;
+}
+
+/**CABEÇALHO - MENU - BARRA DE NAVEGAÇÃO**/
+#menuNavegation {
+	margin-top: 20px;
+}
+
+ul#navegation {
+	float: left;
+	margin-left: 5px;
+	margin-top: 7.5px;
+	text-align: center;
+}
+
+ul#navegation a {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 5px;
+	color: #6E672C;
+	line-height: 30px;
+}
+
+ul#navegation a:hover {
+	background: #FDF6BE;
+}
+
+.testimonial {
+	width: 226px;
+	height: 164px;
+	float: right;
+}
+
+/**CONTEÚDO**/
+#principalArea {
+	width: 50%;
+	float: left;
+	padding: 15px 0;
+	background: url('../IMAGENS/bg-area-principal.png') repeat-x;
+}
+
+#lateralArea {
+	width: 50%;
+	float: right;
+	padding: 20px 0;
+	background: url('../IMAGENS/bg-area-lateral.png') repeat-x;
+}
+
+.content {
+	margin: 0 auto;
+	width: 90%;
+}
+
+/**CONTEÚDO - AREA LATERAL**/
+#benefits li {
+	padding: 8px;
+	border-bottom: 1px solid #F3EFCB;
+	height: 6em;
+}
+
+#benefits li a img {
+	float: left;
+	margin-right: 8px;
+}
+
+#benefits li a p {
+	color: #000000;
+	font-size: 0.8em;
+}
+
+#benefits li a h3 {
+	font-size: 1em;
+	color: #615B2D;
+	padding: 5px 0;
+	background: url('../IMAGENS/ornamento.png') no-repeat center right;
+}
+
+#benefits li:hover {
+	background: F6F3D6;
+	cursor: pointer;
+}
+
+/**RODAPÉ**/
+#footerArea {
+	clear: both;
+	padding: 16px;
+	background: #FFF url('../IMAGENS/bg-rodape.png');
+	color: #7D7640;
+}
